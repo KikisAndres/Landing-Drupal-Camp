@@ -1,0 +1,12 @@
+.banner-head{
+	background: url(../img/banner-head.jpg);
+	text-align: center;
+	
+}
+.banner-head h1{
+	color: #fff;
+}
+
+#content{
+	text-align: center;
+}
