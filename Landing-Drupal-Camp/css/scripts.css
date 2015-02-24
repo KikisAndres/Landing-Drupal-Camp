@@ -1,12 +1,18 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *,:after {
+  box-sizing: inherit;
+}
+
 .banner-head{
 	background: url(../img/banner-head.jpg);
 	text-align: center;
 }
-.event{
-	background: url(../img/dccr-fun.png);
-	width: 100%;
-	height: 100%;
-	padding: 100%
+
+.first-row{
+	margin: 5%;
 }
 ul{
 	background-color: #2B2B2B;
@@ -36,26 +42,41 @@ ul li{
 	margin-top: 8%;
 }
 .col-md-6 p{
-    width: 50%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+.col-md-6 h2{
+	margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 .col-md-8 {
 	background-color: #F0F0F0;
 }
 .col-md-8{
 	float: right;
+
 }
 .col-md-8 img{	
-	margin: 6% 0% 6% 0%;
+	float: left;
 }
 
 #btn-conoce-mas{
 	border-color: white;
 	border-radius: 4%;
-	border: solid: #fff;
 	margin: 2%;
 	background-color: transparent;
 	padding: 1%;
+	border-width: medium;
+	border-style: solid;
 }
 
 .banner-head h1{
@@ -66,7 +87,18 @@ ul li{
 	text-align: center;
 }
 
-
+.bottom-foot{
+	background-color: #2B2B2B;
+	padding: 5%;
+}
+.bottom-foot a{
+	color: white;
+	padding: 5%;
+	margin: 3%;
+}
+.bottom-foot nav{
+	padding: 10%;
+}
 
 .logo{
   float: left;
